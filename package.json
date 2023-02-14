@@ -1,0 +1,22 @@
+{
+  "name": "am-nx-ordermanager-2022",
+  "version": "1.0.0",
+  "description": "Order Manager Project 2022",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KAR-LEON-DEV/newProject.git"
+  },
+  "keywords": [
+    "order"
+  ],
+  "author": "AM-MX 2023 Softtek",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KAR-LEON-DEV/newProject/issues"
+  },
+  "homepage": "https://github.com/KAR-LEON-DEV/newProject#readme"
+}
