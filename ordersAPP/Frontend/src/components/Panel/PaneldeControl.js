@@ -5,6 +5,7 @@ const data = [
   {num: '######', product: 'Lorem Ipsum', client: 'Lorem Ipsum', proceso: 'Lorem Ipsum', date: '##/##/####'},
   {num: '######', product: 'Lorem Ipsum', client: 'Lorem Ipsum', proceso: 'Lorem Ipsum', date: '##/##/####'},
   {num: '######', product: 'Lorem Ipsum', client: 'Lorem Ipsum', proceso: 'Lorem Ipsum', date: '##/##/####'},
+  {num: '######', product: 'Lorem Ipsum', client: 'Lorem Ipsum', proceso: 'Lorem Ipsum', date: '##/##/####'},
 ];
 
 function PaneldeControl(){
