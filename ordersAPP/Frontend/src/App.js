@@ -5,7 +5,7 @@ import Navbarcomponent from './components/Navbarcomponent';
 import Home from './components/Home';
 import Footer from './components/footer/Footer';
 import HistorialdeOrdenes from './components/HistorialdeOrdenes';
-import PaneldeControl from './components/PaneldeControl';
+import PaneldeControl from './components/Panel/PaneldeControl';
 
 
 function App() {
