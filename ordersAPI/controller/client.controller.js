@@ -1,5 +1,5 @@
 const db = require("../model");
-const client = db.client;
+const Client = db.client;
 
 exports.create = (req, res) => {
     if(!req.body.clientName){
@@ -8,7 +8,7 @@ exports.create = (req, res) => {
     }
 
     const client = new Client({
-        clientName: req.body.name,
+        clientName: req.body.clientName,
         rfc: req.body.rfc,
         email: req.body.email,
         phone: req.body.phone,
