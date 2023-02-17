@@ -5,6 +5,7 @@ import Navbarcomponent from './components/Navbarcomponent';
 import Home from './components/Home';
 import Footer from './components/footer/Footer';
 import HistorialdeOrdenes from './components/HistorialdeOrdenes';
+import PaneldeControl from './components/PaneldeControl';
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
         <Route path='/' element={<Home />}>
           
         </Route>
+        <Route path='/paneldecontrol' element={<PaneldeControl />}></Route>
         <Route path='/historialordenes' element={<HistorialdeOrdenes />}>
         </Route>
     </Routes>
