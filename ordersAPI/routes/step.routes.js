@@ -2,25 +2,25 @@ module.exports = app => {
     const steps = require("../controller/step.controller.js");
     var router = require("express").Router();
   
-    // Crear step
+    // Create step
     router.post("/", steps.create);
   
-    // Recuperar todos los steps
+    // Recover all steps
     router.get("/", steps.findAll);
   
-    // Recuperar todos los steps completados
+    // Recover all complete steps
     router.get("/completed", steps.findAllCompleted);
   
-    // Recuperar step por ID
+    // Recover step by ID
     router.get("/:id", steps.findOne);
   
-    // Actualizar step por ID
+    // Update step by ID
     router.put("/:id", steps.update);
   
-    // Eliminar step por ID
+    // Delete step by ID
     router.delete("/:id", steps.delete);
   
-    // Eliminar todos los steps
+    // Delete all steps
     router.delete("/", steps.deleteAll);
   
     app.use('/api/steps', router);

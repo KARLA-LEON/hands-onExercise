@@ -34,12 +34,12 @@ app.get("/", (req, res) => {
     res.json({ message: "USER API running..." });
 });
 
-require("./ordersAPI/routes/user.routes")(app);
-require("./ordersAPI/routes/department.routes")(app);
-require("./ordersAPI/routes/client.routes")(app);
-require("./ordersAPI/routes/order.routes")(app);
-require("./ordersAPI/routes/step.routes")(app);
-require("./ordersAPI/routes/resource.route")(app);
+require("./routes/user.routes")(app);
+require("./routes/department.routes")(app);
+require("./routes/client.routes")(app);
+require("./routes/order.routes")(app);
+require("./routes/step.routes")(app);
+require("./routes/resource.route")(app);
 
 // set port, listen for requests
 const PORT = process.env.PORT || 8080;
