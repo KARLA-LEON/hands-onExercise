@@ -1,4 +1,3 @@
-
 const express = require("express");
 const cors = require("cors");
 
@@ -27,6 +26,7 @@ db.mongoose
     });
 
 require("./ordersAPI/routes/step.routes")(app);
+require("./ordersAPI/routes/department.routes")(app);
 
 const PORT = process.env.PORT || 8080;
 
