@@ -1,6 +1,8 @@
-const password = "SftTkMDB001";
+const username = encodeURIComponent("dba001-mg2k");
+const password = encodeURIComponent("SftTkMDB001");
+const cluster = "am-mx-ordermanager.lfhbvb9.mongodb.net";
 const database = "ordermanager";
 
 module.exports = {
-    url: `mongodb+srv://dba001-mg2k:${password}@am-mx-ordermanager.lfhbvb9.mongodb.net/${database}?retryWrites=true&w=majority`
-}
+    url: `mongodb+srv://${username}:${password}@${cluster}/${database}?retryWrites=true&w=majority`
+};
