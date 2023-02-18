@@ -4,7 +4,8 @@
   "description": "Order Manager Project 2022",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server",
+    "dev": "nodemon server"
   },
   "repository": {
     "type": "git",
@@ -30,6 +31,7 @@
     "react-router-dom": "^6.8.1"
   },
   "devDependencies": {
+    "nodemon": "^2.0.20",
     "eslint": "^8.34.0"
   }
 }
