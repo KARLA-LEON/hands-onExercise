@@ -22,16 +22,17 @@ db.mongoose.connect(db.url, {
     useUnifiedTopology: true
 }).then(function(){
     console.log("Connected to the database");
-    
 }).catch(function(err){
     console.log("Cannot connect to the database", err);
     process.exit();
 });
 
 require("./ordersAPI/routes/client.routes")(app);
+require("./app/routes/order.routes")(app);
 
-// Port to listen for requests
+// set port, listen for requests
 const PORT = process.env.PORT || 8080;
-app.listen(PORT, function() {
-    console.log(`Server is running on port ${PORT}`);
+
+app.listen(PORT, () => {
+  console.log(`Server is running on port ${PORT}.`);
 });

@@ -16,13 +16,16 @@ function Navbarcomponent() {
         <Link to='/' className='botones'>
           <li>Inicio</li>
         </Link>
-        <Link to='/AdministracióndeOrdenes' className='botones'>
+        <Link to='/AdministraciondeOrdenes' className='botones'>
           <li>Administración de Órdenes</li>
+        </Link>
+        <Link to='/paneldecontrol' className='botones'>
+          <li>Panel de control</li>
         </Link>
         <Link to='/historialordenes' className='botones'>
           <li>Historial de Órdenes</li>
         </Link>
-        <Link to='/AdministracióndeClientes' className='botones'>
+        <Link to='/AdministraciondeClientes' className='botones'>
           <li>Administración de Clientes</li>
         </Link>
         <Link to='/Ventas' className='botones'>
