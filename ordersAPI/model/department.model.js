@@ -3,9 +3,9 @@ module.exports = mongoose => {
     "department",
     mongoose.Schema(
       {
-        name: String,
-        email: String,
-        phone: Number
+        name: { type: String, required: true },
+        email: { type: String, required: true },
+        phone: { type: Number, required: true }
       },
       {
         versionKey: false

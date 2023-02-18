@@ -3,11 +3,11 @@ module.exports = mongoose => {
         "client",
         mongoose.Schema(
             {
-                clientName: String,
-                rfc: String,
-                email: String,
-                phone: String,
-                blocked: Boolean
+                clientName: { type: String, required: true },
+                rfc: { type: String, required: true },
+                email: { type: String, required: true },
+                phone: { type: String, required: true },
+                blocked: { type: Boolean, required: true }
             }
         )
     );

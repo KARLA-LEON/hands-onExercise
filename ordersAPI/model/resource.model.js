@@ -1,12 +1,12 @@
 module.exports = mongoose => {
     var schema = mongoose.Schema(
         {
-            name: String,
-            description: String,
-            url: String,
-            updateDate: Date,
-            size: String,
-            format: String
+            name: { type: String, required: true },
+            description: { type: String, required: true },
+            url: { type: String, required: true },
+            updateDate: { type: Date, default: Date.now },
+            size: { type: String, required: true },
+            format: { type: String, required: true }
         },
         { timestamps: true }
     );
