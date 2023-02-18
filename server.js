@@ -25,8 +25,12 @@ db.mongoose
         process.exit();
     });
 
-require("./ordersAPI/routes/step.routes")(app);
+require("./ordersAPI/routes/user.routes")(app);
 require("./ordersAPI/routes/department.routes")(app);
+require("./ordersAPI/routes/client.routes")(app);
+require("./ordersAPI/routes/order.routes")(app);
+require("./ordersAPI/routes/step.routes")(app);
+require("./ordersAPI/routes/resource.route")(app);
 
 const PORT = process.env.PORT || 8080;
 
