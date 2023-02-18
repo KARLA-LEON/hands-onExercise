@@ -1,0 +1,158 @@
+.contenedors {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: flex;
+}
+
+.contenidos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Centrar en el eje horizontal */
+  align-items: center; /* Centrar en el eje vertical */
+  flex: 1;
+}
+
+.titulars{
+  color: rgb(55, 55, 227);
+  margin-bottom: 0px;
+}
+
+.subtitulos{
+  color: rgb(55, 55, 227);
+  margin-top: 0px;
+  margin-bottom: 5px;
+  
+}
+.descripcions{
+  color: rgb(140, 138, 138);
+}
+
+.botons {
+  background-color:rgb(55, 55, 227);
+  color: white;
+  padding: 10px;
+  width: 200px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 20px;
+  font-weight: bold;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.botons:hover {
+  background-color: rgb(160, 69, 245); 
+  cursor: pointer;
+}
+
+.imagens {
+  flex: 1;
+}
+
+.imagens img {
+  display: block;
+  margin-left: 80px;
+  max-width: 80%;
+  border-radius: 20px;
+}
+
+.contenedor1 {
+  display: flex;
+  justify-content:center ;
+  gap: 30px;
+  margin-bottom: 0px;
+}
+
+.item {
+  flex-basis: 25%;
+  border: 5px solid rgb(55, 55, 227);
+  box-sizing: border-box;
+  text-align: center;
+  height: 500px;
+  border-radius: 30px;
+}
+
+.item-1 {
+  background-image: url("../images/History.jpg");
+  background-size: cover;
+}
+
+.item-2 {
+  background-image: url("../images/graficos.JPG");
+  background-size: cover;
+}
+
+.item-3 {
+  background-image: url("../images/graficoenpapel.jpg");
+  background-size: cover;
+}
+
+
+.contenedor2s {
+  display: flex;
+  justify-content:center ;
+  gap: 30px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.items {
+  flex-basis: 25%;
+  text-align: center;
+  
+}
+
+.items-1 h3{
+ color: rgb(55, 55, 227);
+ margin-bottom: 0px;
+}
+
+.items-2 h3{
+ color: rgb(55, 55, 227);
+ margin-bottom: 0px;
+}
+
+.items-3 h3{
+ color: rgb(55, 55, 227);
+ margin-bottom: 0px;
+}
+
+
+.contenedor3 {
+  display: flex;
+  justify-content:center ;
+  gap: 30px;
+  margin-top: 0px;
+  margin-bottom: 30px;
+}
+
+.itemss {
+  flex-basis: 25%;
+  text-align: center;
+  
+}
+
+.itemss-1 {
+ color:rgba(128, 128, 128, 0.642);
+ margin-bottom: 0px;
+}
+
+.itemss-2 {
+ color:rgba(128, 128, 128, 0.642);
+ margin-bottom: 0px;
+}
+
+.itemss-3 {
+ color: rgba(128, 128, 128, 0.642);
+ margin-bottom: 0px;
+}
+
+
+.encabezado{
+  margin-left: 30px;
+  color: rgb(55, 55, 227);
+  margin-bottom: 0px;
+}
+
+.masvisitadodesc{
+  margin-top: 0px;
+}
