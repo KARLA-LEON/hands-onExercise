@@ -5,6 +5,8 @@ import Navbarcomponent from './components/Navbarcomponent';
 import Home from './components/Home';
 import Footer from './components/footer/Footer';
 import HistorialdeOrdenes from './components/HistorialdeOrdenes';
+import AdmindeClientes from './components/AdmindeClientes';
+import Ventas from './components/Ventas';
 
 
 function App() {
@@ -18,6 +20,10 @@ function App() {
           
         </Route>
         <Route path='/historialordenes' element={<HistorialdeOrdenes />}>
+        </Route>
+        <Route path='/AdministracióndeClientes' element={<AdmindeClientes />}>
+        </Route>
+        <Route path='/Ventas' element={<Ventas />}>
         </Route>
     </Routes>
     <Footer/>
