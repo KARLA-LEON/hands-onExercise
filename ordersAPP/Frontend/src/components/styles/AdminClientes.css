@@ -7,8 +7,10 @@
   
   .titulo {
     text-align: center;
-    color: rgb(16, 16, 163);
+    color: rgb(15, 15, 138);
   }
+
+
 
   .contenedor2 {
     margin-top: 30px;
@@ -25,7 +27,7 @@
   }
   
   .titular{
-    color: rgb(55, 55, 227);
+    color: rgb(9, 9, 80);
     margin-bottom: 0px;
   }
 
@@ -59,28 +61,43 @@
     align-items: center;
     margin: 50px 0;
     width: 50%;
+    /*flex-template-columns: 1fr 1fr;
+gap: 20px;
+@media (max-width: 800px){
+  flex-template-columns: 1fr;
+}*/
+  }
+
+  form2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+    width: 50%;
   }
   
   input[type="text"] {
     flex: 10;
     padding: 5px;
-    border: 1px solid gray;
+    border: 1px solid rgb(184, 184, 184);
+    background: rgba(217, 217, 217, 0.6);
     border-radius: 5px 0 0 5px;
     font-size: 14px;
+    margin: 0px 0px 0px 0px;
   }
   
   button[type="submit"] {
     flex: 1;
     padding: 5px;
-    background-color:rgb(120, 204, 204);
-    border: 1px solid gray;
+    background-color:rgb(31, 124, 124);
+    color: rgb(255, 255, 255);
     border-radius: 0 5px 5px 0;
     cursor: pointer;
     font-size: 14px;
   }
   
   button[type="submit"]:hover {
-    background-color: rgba(6, 35, 137, 0.27);
+    background-color: rgba(14, 160, 116, 0.788);
     color: white;
   }
   
@@ -91,22 +108,22 @@
     width: 100%;
     border-collapse: collapse;
     margin: 20px 0;
-    background-color: rgba(6, 35, 137, 0.27);
+    background-color: rgba(173, 172, 172, 0.27);
   }
   
   th, td {
-    border: 1px solid black;
+    border: 1px solid rgb(255, 255, 255);
     padding: 8px;
     text-align: left;
   }
   
   th {
-    background-color:rgba(172, 221, 221, 1);
+    background-color:rgb(134, 202, 202);
   }
 
   table button {
-    background-color:rgba(172, 221, 221, 1);
-    color: black;
+    background-color:rgb(50, 112, 112);
+    color: rgb(255, 255, 255);
     border-radius: 5px;
     border: none;
     padding: 8px 12px;
