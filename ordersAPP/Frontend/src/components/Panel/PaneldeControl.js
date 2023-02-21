@@ -15,9 +15,6 @@ return(
       <h1 className="titulo">Panel de Control</h1>
     </div>
 
-    <div className="contenedor2">
-     
-    </div> 
     <div className='cont1'>
     <form>
       <input type="text" placeholder="Número de Orden a Buscar"/>

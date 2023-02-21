@@ -1,8 +1,12 @@
 import React from 'react'
 import "./styles/home.css"
 import expedientes from "./images/expedientes.jpg"
+import Login from "./Log In/Login";
+
+import { Link } from 'react-router-dom';
 
 function Home() {
+
   return (
     <div>
     <div className="contenedors">
@@ -10,7 +14,9 @@ function Home() {
             <h1 className='titulars'>Bienvenidos.</h1>
             <h2 className='subtitulos'>Lorem Ipsum</h2>
             <p className='descripcions'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            <button className="botons">Ingresar</button>
+            <Link to='/Login' className='botons'>
+          <li>Ingresar</li>
+        </Link>
         </div>
         <div className="imagens">
             <img src={expedientes}/>

@@ -35,6 +35,7 @@ function Navbarcomponent() {
           <li>Departamentos</li>
         </Link>
        
+       
       </ul>
       <button className='mobile-menu-icon'
         onClick={()=>setIsMobile(!isMobile)}

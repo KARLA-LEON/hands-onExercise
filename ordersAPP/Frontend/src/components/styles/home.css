@@ -31,6 +31,24 @@
   background-color:rgb(55, 55, 227);
   color: white;
   padding: 10px;
+  width: 150px;
+  border: none;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 20px;
+  font-weight: bold;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.botons:hover {
+  background-color: rgb(160, 69, 245); 
+  cursor: pointer;
+}
+
+.botonss {
+  background-color:rgb(55, 55, 227);
+  color: white;
+  padding: 10px;
   width: 200px;
   border: none;
   border-radius: 5px;
@@ -39,7 +57,7 @@
   transition: background-color 0.2s ease-in-out;
 }
 
-.botons:hover {
+.botonss:hover {
   background-color: rgb(160, 69, 245); 
   cursor: pointer;
 }
